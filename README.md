@@ -1,6 +1,6 @@
 # Full-Stack Engineer Test
 
-In this test, you are expected to write a small web application to manage a list of department in a company. Each department has a name, set of teams, and the in charge. Each team has a team number, a set of people, and a team lead. 
+In this test, you are expected to write a small web application to manage a list of department in a company. Each department has a name, set of teams, and the person in-charge. Each team has a team number, a set of people, and a team lead. 
 The test consists of two parts, a RESTful API as the **backend** and the JavaScript based **frontend** application.
 
 There is no need to create a PR back to this repository once completed, please provide a link to your project repository for review.
@@ -38,14 +38,11 @@ Implement the following API endpoints:
 * **GET /teams/{{id}}/** - Returns a detail view of the specified team id
 * **GET /users/** - Returns a list of users in the database in JSON format
 * **GET /users/{{id}}/** - Returns a detail view of the specified user id
-
+*
 * **POST /departments/** - Creates a new department with the specified details - Expects a JSON body
 * **POST /teams/** - Creates a new team with the specified details - Expects a JSON body
 * **POST /users/** - Creates a new user with the specified details - Expects a JSON body
-
-_Optional_: You can go a step further by implementing API endpoints to update existing records if you like.
-
-eg:
+* 
 * **PUT /departments/{{id}}** - Updates an existing department - Expects a JSON body
 * **PUT /teams/{{id}}** - Updates an existing team - Expects a JSON body
 * **PUT /users/{{id}}** - Updates an existing user - Expects a JSON body
