@@ -53,7 +53,7 @@ You are recommended to use **MERN** stack to implement your backend and API laye
 ## Frontend implementation
 Implement a small frontend application to consume the API you developed above.
 
-The frontend should be able to show a list of names of the books available in the database. Upon clicking the name of a book on the list, the user should be navigated to a more detailed view of the selected book, where they are presented with the ISBN and the author details. You should also implement two forms where the user is able to create/update authors and books (using the POST and PUT endpoints)
+The frontend should be able to show a list of names of the departments available in the database. Upon clicking the name of a department on the list, the user should be navigated to a more detailed view of the selected department, where they are presented with the teams and department in-charge. You should also implement forms where the user is able to create/update departments, teams, and users (using the POST and PUT endpoints)
 You are recommended to use **ReactJS** to create the frontend, but you are free to use a different JavaScript framework.
 
 ### Notes and recommendations
